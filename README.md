@@ -6,7 +6,7 @@ This is my first Python project.
 
 
 
-\## Features
+\# Features
 
 \- Addition
 
@@ -20,7 +20,7 @@ This is my first Python project.
 
 
 
-\## How to Run
+\# How to Run
 
 
 
@@ -34,7 +34,7 @@ python calculator.py
 
 
 
-\## What I Learned
+\# What I Learned
 
 \- Functions in Python
 
