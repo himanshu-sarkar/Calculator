@@ -1,4 +1,4 @@
-\# Simple Python Calculator
+# Simple Python Calculator
 
 
 
@@ -6,27 +6,29 @@ This is my first Python project.
 
 
 
-\# Features
+# Features
 
-\- Addition
+- Addition
 
-\- Subtraction
+- Subtraction
 
-\- Multiplication
+- Multiplication
 
-\- Division
+- Division
 
-\- Division by zero handling
+- Division by zero handling
 
-
-
-\# How to Run
+- Runs continuously until user exits
 
 
 
-1\. Open terminal inside project folder
+# How to Run
 
-2\. Run:
+
+
+1. Open terminal inside project folder
+
+2. Run:
 
 
 
