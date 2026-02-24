@@ -12,13 +12,16 @@ def divide(a, b):
         return "Error: Division by zero"
     return a / b
 
+def power(a, b):
+    return a ** b
+
 
 print("Simple Calculator")
 
 while True:
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
-    op = input("Enter operation (+ - * /): ")
+    op = input("Enter operation (+ - * / **): ")
 
     if op == "+":
         print("Result:", add(a, b))
@@ -28,6 +31,8 @@ while True:
         print("Result:", multiply(a, b))
     elif op == "/":
         print("Result:", divide(a, b))
+    elif op == "**":
+        print("Result:", power(a, b))
     else:
         print("Invalid operation")
 
