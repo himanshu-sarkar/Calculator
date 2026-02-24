@@ -46,7 +46,10 @@ python calculator.py
 
 
 
----
+## Future Improvements
+- Add power operation
+- Add square root feature
+- Improve UI formatting
 
 
 
