@@ -18,6 +18,8 @@ This is my first Python project.
 
 - Division by zero handling
 
+- Power operation (**)
+
 - Runs continuously until user exits
 
 
