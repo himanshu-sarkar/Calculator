@@ -18,6 +18,8 @@ This is my first Python project.
 
 - Division by zero handling
 
+- Power operation (**)
+
 - Runs continuously until user exits
 
 - Handles invalid number input safely
@@ -49,7 +51,6 @@ python calculator.py
 
 
 ## Future Improvements
-- Add power operation
 - Add square root feature
 - Improve UI formatting
 
