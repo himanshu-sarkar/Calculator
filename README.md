@@ -20,6 +20,8 @@ This is my first Python project.
 
 - Runs continuously until user exits
 
+- Handles invalid number input safely
+
 
 
 # How to Run

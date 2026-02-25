@@ -18,9 +18,15 @@ def power(a, b):
 
 print("Simple Calculator")
 
+
 while True:
-    a = float(input("Enter first number: "))
-    b = float(input("Enter second number: "))
+    try:
+        a = float(input("Enter first number: "))
+        b = float(input("Enter second number: "))
+    except ValueError:
+        print("Invalid number entered. Please try again.\n")
+        continue
+
     op = input("Enter operation (+ - * / **): ")
 
     if op == "+":
