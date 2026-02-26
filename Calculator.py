@@ -16,18 +16,24 @@ def power(a, b):
     return a ** b
 
 
-print("Simple Calculator")
+print("=" * 35)
+print("        SIMPLE CALCULATOR")
+print("=" * 35)
 
 
 while True:
     try:
-        a = float(input("Enter first number: "))
-        b = float(input("Enter second number: "))
+        print("\nEnter your numbers:")
+        a = float(input("First number: "))
+        b = float(input("Second number: "))
     except ValueError:
-        print("Invalid number entered. Please try again.\n")
+        print("\nInvalid number entered. Please try again.")
+        print("-" * 35)
         continue
 
-    op = input("Enter operation (+ - * / **): ")
+    op = input("Operation (+ - * / **): ")
+
+    print("\n" + "-" * 35)
 
     if op == "+":
         print("Result:", add(a, b))
@@ -42,7 +48,9 @@ while True:
     else:
         print("Invalid operation")
 
+    print("-" * 35)
+
     again = input("Do you want to continue? (y/n): ")
     if again.lower() != "y":
-        print("Goodbye!")
+        print("\nThank you for using the calculator!")
         break

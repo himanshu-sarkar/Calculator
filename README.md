@@ -1,60 +1,34 @@
 # Simple Python Calculator
 
+This is my first Python CLI project built while learning Python and Git.
 
-
-This is my first Python project.
-
-
-
-# Features
+## Features
 
 - Addition
-
 - Subtraction
-
 - Multiplication
-
 - Division
-
 - Division by zero handling
-
 - Power operation (**)
-
-- Runs continuously until user exits
-
 - Handles invalid number input safely
+- Runs continuously until user exits
+- Improved console UI formatting
 
-
-
-# How to Run
-
-
+## How to Run
 
 1. Open terminal inside project folder
-
 2. Run:
-
-
 
 python calculator.py
 
+## What I Learned
 
+- Functions in Python
+- Loops and conditional statements
+- Exception handling (try/except)
+- Clean console formatting
+- Git & GitHub workflow
 
-\# What I Learned
+---
 
-\- Functions in Python
-
-\- Basic input/output
-
-\- Git and GitHub basics
-
-
-
-## Future Improvements
-- Add square root feature
-- Improve UI formatting
-
-
-
-Made while learning Python 🚀
-
+Built as part of my Python learning journey 🚀
