@@ -16,6 +16,8 @@ def power(a, b):
     return a ** b
 
 
+history = []
+
 print("=" * 35)
 print("        SIMPLE CALCULATOR")
 print("=" * 35)
@@ -35,20 +37,33 @@ while True:
 
     print("\n" + "-" * 35)
 
+    result = None
+
     if op == "+":
-        print("Result:", add(a, b))
+        result = add(a, b)
     elif op == "-":
-        print("Result:", subtract(a, b))
+        result = subtract(a, b)
     elif op == "*":
-        print("Result:", multiply(a, b))
+        result = multiply(a, b)
     elif op == "/":
-        print("Result:", divide(a, b))
+        result = divide(a, b)
     elif op == "**":
-        print("Result:", power(a, b))
+        result = power(a, b)
     else:
         print("Invalid operation")
 
+    if result is not None:
+        print("Result:", result)
+        history.append(f"{a} {op} {b} = {result}")
+
     print("-" * 35)
+
+    view = input("Do you want to see calculation history? (y/n): ")
+    if view.lower() == "y":
+        print("\n--- Calculation History ---")
+        for item in history:
+            print(item)
+        print("----------------------------")
 
     again = input("Do you want to continue? (y/n): ")
     if again.lower() != "y":
