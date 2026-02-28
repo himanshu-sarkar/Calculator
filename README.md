@@ -2,7 +2,7 @@
 
 This is my first Python CLI project built while learning Python and Git.
 
-## Features i have included
+## Features i have included 
 
 - Addition
 - Subtraction
@@ -15,7 +15,7 @@ This is my first Python CLI project built while learning Python and Git.
 - Runs continuously until user exits
 - Improved console UI formatting
 
-## How to Run
+## How to Run this
 
 1. Open terminal inside project folder
 2. Run:
