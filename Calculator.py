@@ -15,6 +15,9 @@ def divide(a, b):
 def power(a, b):
     return a ** b
 
+def percentage(a, b):
+    return (a * b) / 100
+
 
 history = []
 
@@ -33,7 +36,7 @@ while True:
         print("-" * 35)
         continue
 
-    op = input("Operation (+ - * / **): ")
+    op = input("Operation (+ - * / ** %): ")
 
     print("\n" + "-" * 35)
 
@@ -49,6 +52,8 @@ while True:
         result = divide(a, b)
     elif op == "**":
         result = power(a, b)
+    elif op == "%":
+        result = percentage(a, b)
     else:
         print("Invalid operation")
 

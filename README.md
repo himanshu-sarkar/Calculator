@@ -14,6 +14,7 @@ This is my first Python CLI project built while learning Python and Git.
 - Stores calculation history during session
 - Runs continuously until user exits
 - Improved console UI formatting
+- Percentage calculation (%)
 
 ## How to Run
 
