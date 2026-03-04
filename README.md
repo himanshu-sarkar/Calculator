@@ -2,7 +2,7 @@
 
 This is my first Python CLI project built while learning Python and Git.
 
-## Features i have included 
+## Features I have included 
 
 - Addition
 - Subtraction
