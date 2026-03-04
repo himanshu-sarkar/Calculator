@@ -18,7 +18,7 @@ This is my first Python CLI project built while learning Python and Git.
 
 ## How to Run this
 
-1. Open terminal inside project folder
+1. Open terminal inside the project folder
 2. Run:
 
 python calculator.py
