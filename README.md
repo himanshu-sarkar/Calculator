@@ -12,13 +12,13 @@ This is my first Python CLI project built while learning Python and Git.
 - Power operation (**)
 - Handles invalid number input safely
 - Stores calculation history during session
-- Runs continuously until user exits
+- Runs continuously until the user exits
 - Improved console UI formatting
 - Percentage calculation (%)
 
 ## How to Run this
 
-1. Open terminal inside the project folder
+1. Open the terminal inside the project folder
 2. Run:
 
 python calculator.py
