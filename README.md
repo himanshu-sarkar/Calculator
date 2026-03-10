@@ -2,7 +2,7 @@
 
 This is my first Python CLI project built while learning Python and Git.
 
-## Features I have included in the project
+## Features I have included in the 
 
 - Addition
 - Subtraction
@@ -16,7 +16,7 @@ This is my first Python CLI project built while learning Python and Git.
 - Improved console UI formatting
 - Percentage calculation (%)
 
-## How to Run this
+## How to Run 
 
 1. Open the terminal inside the project folder
 2. Run:
