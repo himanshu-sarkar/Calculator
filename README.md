@@ -2,7 +2,7 @@
 
 This is my first Python CLI project built while learning Python and Git.
 
-## Features I have included in this project
+## Features I have included in this 
 
 - Addition
 - Subtraction
@@ -23,7 +23,7 @@ This is my first Python CLI project built while learning Python and Git.
 
 python calculator.py
 
-## What I Learned
+## What I Learned while making it
 
 - Functions in Python
 - Loops and conditional statements
