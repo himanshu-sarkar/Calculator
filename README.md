@@ -2,7 +2,7 @@
 
 This is my first Python CLI project built while learning Python and Git.
 
-## Features I have included 
+## Features
 
 - Addition
 - Subtraction
@@ -10,28 +10,31 @@ This is my first Python CLI project built while learning Python and Git.
 - Division
 - Division by zero handling
 - Power operation (**)
+- Percentage calculation (%)
+- Square root calculation (sqrt)
 - Handles invalid number input safely
 - Stores calculation history during session
 - Runs continuously until the user exits
 - Improved console UI formatting
-- Percentage calculation (%)
 
-## How to Run this project
+## How to Run
 
-1. Open the terminal inside the project folder
+1. Open terminal inside the project folder
 2. Run:
 
 python calculator.py
 
-## What I Learned while making it
+## What I Learned
 
 - Functions in Python
 - Loops and conditional statements
 - Exception handling (try/except)
 - Working with lists (history storage)
+- Using Python libraries (math module)
 - Clean console formatting
 - Git & GitHub workflow
 
 ---
 
 Built as part of my Python learning journey 🚀
+
