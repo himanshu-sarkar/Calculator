@@ -1,3 +1,5 @@
+import math
+
 def add(a, b):
     return a + b
 
@@ -18,6 +20,11 @@ def power(a, b):
 def percentage(a, b):
     return (a * b) / 100
 
+def square_root(a):
+    if a < 0:
+        return "Error: Negative number"
+    return math.sqrt(a)
+
 
 history = []
 
@@ -36,7 +43,7 @@ while True:
         print("-" * 35)
         continue
 
-    op = input("Operation (+ - * / ** %): ")
+    op = input("Operation (+ - * / ** % sqrt): ")
 
     print("\n" + "-" * 35)
 
@@ -54,6 +61,8 @@ while True:
         result = power(a, b)
     elif op == "%":
         result = percentage(a, b)
+    elif op == "sqrt":
+        result = square_root(a)
     else:
         print("Invalid operation")
 
@@ -74,3 +83,4 @@ while True:
     if again.lower() != "y":
         print("\nThank you for using the calculator!")
         break
+
